@@ -1,0 +1,18 @@
+/* scrollbar.css */
+
+/* Estilos para a scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da scrollbar */
+    background-color: black;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #ff0000, #6b0505); /* Gradiente vermelho neon */
+    border-radius: 6px; /* Raio da borda da alça */
+    border: 2px solid #6e0a0a; /* Cor da borda da alça */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #ff1493, #ff0000); /* Gradiente vermelho neon ao passar o mouse */
+  }
+  
